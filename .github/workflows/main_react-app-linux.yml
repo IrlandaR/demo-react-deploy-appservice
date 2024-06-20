@@ -51,7 +51,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "react-app-linux"
-          slot-name: "Production"
+          app-name: "demo-reac-qa"
+          #slot-name: ""
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB3421CFCDEA465BB4D03F4AB71B95FB }}
           package: .
